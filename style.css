@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+*{    
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    margin: 10px;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+ color: hsl(300, 43%, 22%);
+}
+
+div{
+    font-size: 15px;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+.segundop{
+    color: hsl(300, 43%, 22%);
+}
+
+.cardestrella{
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10%;
+}
+.imagen{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.cardpersona{
+ background-color: hsl(300, 43%, 22%);
+ border-radius: 10%;
+ color: hsl(0, 0%, 100%);
+
+ /*esto no me funciona, no se como poner la foto a la izq y el nombre y el Verified Buyer a la derecha*/
+ flex-direction: row;
+}
+
+div h3{
+    color:hsl(333, 80%, 67%);
+}
